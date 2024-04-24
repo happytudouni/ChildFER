@@ -12,7 +12,7 @@ Download the Study I folder. You should see the following files in your folder:
 <img width="404" alt="截屏2024-04-24 14 32 43" src="https://github.com/happytudouni/ChildFER/assets/167507990/c762eedf-c51a-47f5-9ef0-6dd7a2efcd93">
 
 Go to the "Data and Materials" folder. 
-You will find preprocessed EEG data for one participant (Expt 6 Participant number 8 SSVEP_BS_*_ODD_*_emotion_ica0.mat), along with selected ROI information (hgsn2clusters_ROI.mat), details of 128 channels (hgsn128chanlocs.mat), information on frequency bins (EEG_freq.mat), and the responses of all participants after preprocessing and segmenting (Info*.mat). Please download these files to your local directory.
+You will find preprocessed EEG data for one participant (Expt 6 Participant number 8 SSVEP_BS*_ODD*_emotion_ica0.mat), along with selected ROI information (hgsn2clusters_ROI.mat), details of 128 channels (hgsn128chanlocs.mat), information on frequency bins (EEG_freq.mat), and the responses of all participants after preprocessing and segmenting (Info*.mat). Please download these files to your local directory.
 
 <img width="589" alt="截屏2024-04-24 15 58 27" src="https://github.com/happytudouni/ChildFER/assets/167507990/814379d8-4c6e-4ed4-b1ba-05dca9d8fe90">
 
@@ -37,7 +37,7 @@ The output results are as follows:
 
 <img width="267" alt="截屏2024-04-24 下午2 56 05" src="https://github.com/happytudouni/ChildFER/assets/167507990/0814e50a-cea5-4c81-9db6-41438dd13306">
 
-If the first trial data under this condition should be deleted, then the output of the first result will be the “participantnumber”; otherwise, it will be empty. The same applies to the second output. The program's run time is approximately one minute.
+The first output is the result of whether the participant's data of first trial in the current condition should be deleted. If the first trial datashould be deleted, then the output of the first result will be the “participantnumber”; otherwise, it will be empty. The same applies to the second output. The program's run time is approximately one minute.
 
 
 To visually inspect the responses of participants at both base and odd frequencies, open "PlotFPVS.m", modify it to your local path and run. 
@@ -109,7 +109,7 @@ Note: Before running any code for Study III, download and install RStudio. Our p
 
 RStudio 2023.06
 
-We tested codes in Study III folder on a MacBook Pro laptop that has the following system configuration:
+We tested codes in Study III folder on a MacBook Air laptop that has the following system configuration:
 
 <img width="223" alt="截屏2024-04-24 15 13 53" src="https://github.com/happytudouni/ChildFER/assets/167507990/ce93352c-c45d-4451-a563-ce824e43968e">
 
