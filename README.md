@@ -25,7 +25,7 @@ eeglab2022.1
 
 We tested codes in Study I folder on a MacBook Pro laptop that has the following system configuration:
 
-<img width="515" alt="截屏2024-04-24 下午2 56 39" src="https://github.com/happytudouni/ChildFER/assets/167507990/973e8148-33c9-46d4-b596-c58ce5ce726a">
+![22121714028328_ pic](https://github.com/happytudouni/ChildFER/assets/167507990/ba030d7d-ecc8-4fa1-bb53-22ef08d4e36c)
 
 To check the responses of participants at the base frequency, open "CheckSingleTrialBaseResponse.m", update it with your local path and run the script. 
 
@@ -80,7 +80,7 @@ Next, go to the "Codes" folder.
 Note: Before running any code for Study II, download and install the MatMouse toolboxes and add them to the Matlab search path. 
 We tested codes in Study II folder on a MacBook Pro laptop that has the following system configuration:
 
-<img width="515" alt="截屏2024-04-24 下午2 56 39" src="https://github.com/happytudouni/ChildFER/assets/167507990/344a6af9-eaea-4e7b-bbe8-25475f3c95cd">
+![22121714028328_ pic](https://github.com/happytudouni/ChildFER/assets/167507990/a398fcea-3b3e-484e-8c91-84e9c2d5a38d)
 
 To calculate the maximum deviation (MD) of the mouse tracking trajectories, open "MTAnalysis_conditionHA_FE.m", adjust it to your local path and run. 
 We set the "participantnumber" to 0941 as an example：
@@ -111,7 +111,7 @@ RStudio 2023.06
 
 We tested codes in Study III folder on a MacBook Air laptop that has the following system configuration:
 
-<img width="223" alt="截屏2024-04-24 15 13 53" src="https://github.com/happytudouni/ChildFER/assets/167507990/ce93352c-c45d-4451-a563-ce824e43968e">
+![22111714028328_ pic](https://github.com/happytudouni/ChildFER/assets/167507990/d3b5827f-2a5f-4bee-936c-3999090ed7f1)
 
 To construct GEE models, open "GEE_emotionRSA.R", modify it to your local path and run. 
 We set the parameters related to the predictive effect of different variables on sorting as an example:
