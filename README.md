@@ -4,7 +4,7 @@ This repository contains data and scripts as part of the following paper: Huang,
 
 # Background
 
-The shared code, data, and materials in the current folders are provided to demonstrate the data analysis processes for Study I, Study II, and Study III in this paper. Each folder contains the necessary materials required for each study, along with a detailed ReadMe file to guide you in achieving the desired outcomes. For any queries regarding the code, data or materials, please contact wanze.xie@pku.edu.cn or 2201110720@stu.pku.edu.cn.
+The folders provided here contain shared code, data, and materials demonstrating the data analysis for Study I, Study II, and Study III outlined in this paper. Each folder includes the essential materials used for its respective study, accompanied by a ReadMe file to assist you in achieving the desired results. For inquiries regarding the code, data, or materials, please reach out to Wanze Xie at wanze.xie@pku.edu.cn or Shuran Huang at 2201110720@stu.pku.edu.cn
 
 # Example usage for Study I
 Download the Study I folder. You should see the following files in your folder:
