@@ -1,29 +1,29 @@
 # ChildFER
 
-This repository contains data and scripts as part of the following paper: Huang, S. & Xie, W. (under review). From seeing to understanding: Unravealing perceptual and conceptual contributions to children's facial expression recognition. 
+This repository contains data and scripts as part of the following paper: Huang, S., Pollak S.,& Xie, W. (2025). The Contributions of Spontaneous Discrimination and Conceptual Knowledge to Children's Understanding of Emotion. 
 
 # Background
 
-The folders provided here contain shared code, data, and materials demonstrating the data analysis for Study I, Study II, and Study III outlined in this paper. Each folder includes the essential materials used for its respective study, accompanied by a ReadMe file to assist you in achieving the desired results. For inquiries regarding the code, data, or materials, please reach out to Wanze Xie at wanze.xie@pku.edu.cn or Shuran Huang at 2201110720@stu.pku.edu.cn
+The folders provided here contain shared code, data, and materials demonstrating the data analysis for Study 1, Study 2, Study 3 and RSA outlined in this paper. Each folder includes the essential materials used for its respective study, accompanied by a ReadMe file to assist you in achieving the desired results. For inquiries regarding the code, data, or materials, please reach out to Wanze Xie at wanze.xie@pku.edu.cn or Shuran Huang at 2201110720@stu.pku.edu.cn
 
-# Example usage for Study I
-Download the Study I folder. You should see the following files in your folder:
+# Example usage for Study 1
+Download the Study 1 folder. You should see the following files in your folder:
 
-<img width="404" alt="截屏2024-04-24 14 32 43" src="https://github.com/happytudouni/ChildFER/assets/167507990/c762eedf-c51a-47f5-9ef0-6dd7a2efcd93">
+<img width="403" alt="截屏2025-05-19 17 21 26" src="https://github.com/user-attachments/assets/8f06e236-a6d6-4f68-aa1a-f1e3e854a399" />
 
 Go to the "Data and Materials" folder. 
-You will find preprocessed EEG data for one participant (Expt 6 Participant number 8 SSVEP_BS*_ODD*_emotion_ica0.mat), along with selected ROI information (hgsn2clusters_ROI.mat), details of 128 channels (hgsn128chanlocs.mat), information on frequency bins (EEG_freq.mat), and the responses of all participants after preprocessing and segmenting (Info*.mat). Please download these files to your local directory.
+You will find several .xlsx files summarizing children’s SSVEP data under different preprocessing pipelines and conditions.
 
-<img width="589" alt="截屏2024-04-24 15 58 27" src="https://github.com/happytudouni/ChildFER/assets/167507990/814379d8-4c6e-4ed4-b1ba-05dca9d8fe90">
+<img width="654" alt="截屏2025-05-19 17 22 18" src="https://github.com/user-attachments/assets/55795121-75f1-4cf8-8427-9a5766f23318" />
 
 Next, go to the "Codes" folder. 
-Note: Before running any code for Study I, download and install the EEGLAB and Fieldtrip toolboxes, adding them to the Matlab search path. Our programs were tested with the following Fieldtrip and EEGLAB versions:
+Note: Before running any code for Study 1, download and install the EEGLAB and Fieldtrip toolboxes, adding them to the Matlab search path. Our programs were tested with the following Fieldtrip and EEGLAB versions:
 
 fieldtrip-20220707
 
 eeglab2022.1
 
-We tested codes in Study I folder on a MacBook Pro laptop that has the following system configuration:
+We tested codes in Study 1 folder on a MacBook Pro laptop that has the following system configuration:
 
 ![22121714028328_ pic](https://github.com/happytudouni/ChildFER/assets/167507990/ba030d7d-ecc8-4fa1-bb53-22ef08d4e36c)
 
@@ -65,20 +65,42 @@ The run time is approximately 10 seconds.
 
 For more detailed instructions and required toolboxes, refer to the README.txt file in the Study I folder.
 
-# Example usage for Study II
+# Example usage for Study 2
 
-Download the Study II folder. You should see the following files in your folder:
+Download the Study 2 folder. You should see the following files in your folder:
 
-<img width="404" alt="截屏2024-04-24 14 33 14" src="https://github.com/happytudouni/ChildFER/assets/167507990/6ea89270-8f79-41ad-8c20-ff93bead087b">
+<img width="400" alt="截屏2025-05-19 17 24 17" src="https://github.com/user-attachments/assets/252123e6-12d9-40a2-adcc-9f7dfc5256d2" />
 
 Go to the "Data and Materials" folder. 
-You will find the raw MT data for one participant (raw__imageChoice_0941.csv) and the correlation values between every pair of emotions from all participants' rating tasks (rating.sav).
+The "Data and Materials" directory contains files related to participants’ conceptual representations of emotion words, based on similarity judgments and comparisons with adult reference data.
+	•	MDS.sav: SPSS data file containing multidimensional scaling (MDS) results used to derive similarity-based representations of each participant’s conceptual space for emotion words.
+	•	average_rating.xlsx: Contains correlation values between each child’s average ratings and the adult reference ratings for each emotion word.
+	•	rating_similarity_matrix.xlsx: Includes conceptual similarity scores for each participant, calculated for each emotion pair based on their individual rating patterns.
 
-<img width="400" alt="截屏2024-04-24 16 10 41" src="https://github.com/happytudouni/ChildFER/assets/167507990/3437a7e7-113b-4cc5-b913-f5c81a6e8f84">
+<img width="628" alt="截屏2025-05-19 17 25 19" src="https://github.com/user-attachments/assets/6fbb39a8-a592-44a1-9ff0-7071cc25badd" />
 
-Next, go to the "Codes" folder. 
-Note: Before running any code for Study II, download and install the MatMouse toolboxes and add them to the Matlab search path. 
-We tested codes in Study II folder on a MacBook Pro laptop that has the following system configuration:
+
+# Example usage for Study 3
+
+Download the Study 3 folder.You should see the following files in your folder:
+
+<img width="399" alt="截屏2025-05-19 17 26 00" src="https://github.com/user-attachments/assets/280af62a-1a18-44d0-9068-cf1cc8af791a" />
+
+<img width="601" alt="截屏2025-05-19 17 26 09" src="https://github.com/user-attachments/assets/6fbb562e-3fe1-4090-b83e-4162a84be05c" />
+
+<img width="601" alt="截屏2025-05-19 17 26 16" src="https://github.com/user-attachments/assets/77ea6d60-2250-4efb-99f2-e5248a47cd70" />
+
+Go to the "Matching/Data and Materials" folder. The "Data and Materials" folder contains the raw MT data for one participant (raw__imageChoice_0941.csv), as well as the accuracy (MT_acc.xlsx) and similarity scores (MT_similarity_matrix.xlsx) of each participant. 
+
+<img width="843" alt="截屏2025-05-19 17 27 26" src="https://github.com/user-attachments/assets/18e68f1d-b544-4d6a-920f-aab4f5e23f4c" />
+
+Go to the "Sorting/Data and Materials" folder. The “Data and Materials” directory contains files related to participants’ emotion understanding assessed through a sorting task. It includes each participant’s accuracy scores (MT_acc.xlsx) and conceptual similarity scores (MT_similarity_matrix.xlsx).
+
+<img width="843" alt="截屏2025-05-19 17 28 22" src="https://github.com/user-attachments/assets/a1d40fee-d15a-44b0-bff4-d3a3efc64aa3" />
+
+Next, go to the "Matching/Codes" folder. 
+Note: Before running any code for Study 3, download and install the MatMouse toolboxes and add them to the Matlab search path. 
+We tested codes in Study 3 folder on a MacBook Pro laptop that has the following system configuration:
 
 ![22121714028328_ pic](https://github.com/happytudouni/ChildFER/assets/167507990/a398fcea-3b3e-484e-8c91-84e9c2d5a38d)
 
@@ -91,25 +113,25 @@ The output is MD_error, representing the maximum deviation of the mouse trajecto
 
 <img width="243" alt="截屏2024-04-24 下午3 11 06" src="https://github.com/happytudouni/ChildFER/assets/167507990/13ad5546-4de0-4549-a94a-e99e23de59ff">
 
-For more detailed instructions and required toolboxes, refer to the README.txt file in the Study II folder.
+For more detailed instructions and required toolboxes, refer to the README.txt file in the Study 3 folder.
 
-# Example usage for Study III
+# Example usage for RSA
 
-Download the Study III folder.You should see the following files in your folder:
+Download the RSA folder.You should see the following files in your folder:
 
-<img width="404" alt="截屏2024-04-24 14 33 43" src="https://github.com/happytudouni/ChildFER/assets/167507990/ab1ac790-ab4e-4505-ad45-5269587244e4">
+<img width="401" alt="截屏2025-05-19 17 29 37" src="https://github.com/user-attachments/assets/df55248d-6e83-4f5f-81f8-ca5094770f1e" />
 
 Go to the "Data and Materials" folder. 
-You will find all the organized data from various tasks needed to construct GEE models (GEE_final(children)_ROIall.xlsx), as well as the similarity values between every pair of emotions from all participants' sorting & mouse tracking tasks (sorting & MT.sav).
+You will find all the organized data from various tasks needed to construct GEE models.
 
-<img width="400" alt="截屏2024-04-24 16 15 10" src="https://github.com/happytudouni/ChildFER/assets/167507990/f8ab8eab-98c7-453d-bfa1-1d141c8e2fff">
+<img width="647" alt="截屏2025-05-19 17 30 03" src="https://github.com/user-attachments/assets/273105d8-c0bd-41c6-b91a-2fef8868df27" />
 
 Next, go to the "Codes" folder. 
-Note: Before running any code for Study III, download and install RStudio. Our programs were tested with the following RStudio version: 
+Note: Before running any code for RSA, download and install RStudio. Our programs were tested with the following RStudio version: 
 
 RStudio 2023.06
 
-We tested codes in Study III folder on a MacBook Air laptop that has the following system configuration:
+We tested codes in RSA folder on a MacBook Air laptop that has the following system configuration:
 
 ![22111714028328_ pic](https://github.com/happytudouni/ChildFER/assets/167507990/d3b5827f-2a5f-4bee-936c-3999090ed7f1)
 
@@ -130,6 +152,6 @@ The output provides the predictive effect of FPVS on sorting across different ag
 
 <img width="575" alt="截屏2024-04-24 15 22 43" src="https://github.com/happytudouni/ChildFER/assets/167507990/40d1156e-517d-4567-98b7-8aefc0d1a5a7">
 
-For more detailed instructions and required toolboxes, refer to the README.txt file in the Study III folder.
+For more detailed instructions and required toolboxes, refer to the README.txt file in the RSA folder.
 
 
